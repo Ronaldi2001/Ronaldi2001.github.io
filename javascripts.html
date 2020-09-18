@@ -4,14 +4,50 @@
 		
 		<meta charset="utf-8">
 		<title>Ronnie's Javascripts Page</title>
+		
+		<style>
+		* {
+ 			 box-sizing: border-box;
+		}
+
+		.column {
+  			float: right;
+ 			width: 7%;
+  			padding: 5px;
+		}
+
+		.row::after {
+  			content: "";
+  			clear: both;
+  			display: table;
+		}
+		</style>
 	</head>
 	
 	<body>
 		
 		<img src="banner.jpg"
 		     alt="Banner">
+		
+		<div class="row">
+  			<div class="column">
+				<a href="about_me.html">
+    				<img src="about_me.jpg" alt="About Me" style="width:100%">
+				</a>
+  			</div>
+			<div class="column">
+				<a href="javascripts.html">
+    				<img src="javascripts.jpg" alt="Javascripts" style="width:100%">
+				</a>
+  			</div>
+			<div class="column">
+				<a href="index.html">
+    				<img src="home.jpg" alt="Home" style="width:100%">
+				</a>
+  			</div>
+		</div>
+		
 		<h1>My Javascript</h1>
-		Back to <a href="index.html">Home Page</a>.
 		
 	</body>
 </html>
