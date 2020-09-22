@@ -27,6 +27,13 @@
   			width: 50%;
 		}
 
+		.aboutmecenter {
+          			display: block;
+          			margin-left: auto;
+          			margin-right: auto;
+          			width: 25%;
+        		}
+
 		p {
   			border: 1px solid black;
 			width: 50%;
