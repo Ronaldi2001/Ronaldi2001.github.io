@@ -28,6 +28,7 @@
 			text-align: justify;
             text-justify: inter-word;
 			background-color: white;
+			padding: 3px;
 		}
 		body {
         	background-image: url("/Images/myBackground.jpg");
