@@ -25,6 +25,10 @@
           float: center;
         }
 
+        ul {
+          list-style-type: none;
+        }
+
 		p {
   			border: 1px solid black;
 			width: 50%;
