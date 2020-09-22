@@ -23,13 +23,22 @@
 
 		.link {
           			float: center;
-         			width: 8.5%;
+         			width: 10%;
           			padding: 5px;
         		}
 
-		li {
-          align="middle"
+		.table {
+        	display: table;   /* Allow the centering to work */
+        	margin: 0 auto;
         }
+
+        ul#horizontal-list {
+        	list-style: none;
+        	padding-top: 20px;
+        	}
+        	ul#horizontal-list li {
+        		display: inline;
+        	}
 
         ul {
           list-style-type: none;
