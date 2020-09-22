@@ -21,6 +21,12 @@
   			width: 50%;
 		}
 
+		.link {
+          			float: center;
+         			width: 8.5%;
+          			padding: 5px;
+        		}
+
 		li {
           align="middle"
         }
