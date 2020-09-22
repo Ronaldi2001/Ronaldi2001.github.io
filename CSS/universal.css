@@ -9,8 +9,7 @@
 		}
 
 		.columnam {
-          			float: left;
-         			width: 50%;
+          			flex: left;
           			padding: 5px;
         		}
 
@@ -19,6 +18,10 @@
   			clear: both;
   			display: table;
 		}
+
+		.rowab {
+          			display: flex;
+        		}
 
 		.center {
   			display: block;
