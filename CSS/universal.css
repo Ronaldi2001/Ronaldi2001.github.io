@@ -25,7 +25,8 @@
   			border: 1px solid black;
 			width: 50%;
   			margin: auto;
-			text-align: center;
+			text-align: justify;
+            text-justify: inter-word;
 			background-color: white;
 		}
 		body {
