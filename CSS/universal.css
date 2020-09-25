@@ -1,80 +1,84 @@
-        * {
- 			 box-sizing: border-box;
-		}
+* {
+    box-sizing: border-box;
+}
 
-		.column {
-  			float: right;
- 			width: 8.5%;
-  			padding: 5px;
-		}
+.column {
+  	float: right;
+ 	width: 8.5%;
+  	padding: 5px;
+}
 
-		.columnam {
-          			width: 50%;
-          			float: left;
-          			padding: 5px;
-        		}
+.columnam {
+    width: 50%;
+    float: left;
+    padding: 5px;
+}
 
-		.row::after {
-  			content: "";
-  			clear: both;
-  			display: table;
-		}
+.row::after {
+  	content: "";
+  	clear: both;
+  	display: table;
+}
 
-		.center {
-  			display: block;
-  			margin-left: auto;
-  			margin-right: auto;
-  			width: 50%;
-		}
+.center {
+  	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 50%;
+}
 
-		h2 {
-		    margin: auto;
-            text-align: center;
-		}
+h2 {
+    margin: auto;
+	text-align: center;
+}
 
 .collapsible {
-  background-color: #777;
-  color: white;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 15px;
+    background-color: #777;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    margin: auto;
+    width: 75%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
 }
 
 .active, .collapsible:hover {
-  background-color: #555;
+    background-color: #555;
 }
 
 .content {
-  padding: 0 18px;
-  display: none;
-  overflow: hidden;
-  background-color: #f1f1f1;
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #f1f1f1;
+    background-color: rgba(255, 255, 255, 0.4);
+    background-blend-mode: lighten;
 }
 
-		iframe {
-            display: block;
-            margin-right: auto;
-            margin-left: auto;
-        }
+iframe {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
 
-		p {
-  			border: 1px solid black;
-			width: 50%;
-  			margin: auto;
-			text-align: justify;
-            text-justify: inter-word;
-			background-color: white;
-			padding: 5px;
-		}
-		body {
-        	background-image: url("/Images/myBackground.jpg");
-        	background-color: rgba(255, 255, 255, 0.4);
-            background-blend-mode: lighten;
-        	background-repeat: no-repeat;
-            background-attachment: fixed;
-            background-size: cover;
-        }
+p {
+    border: 1px solid black;
+	width: 50%;
+  	margin: auto;
+	text-align: justify;
+    text-justify: inter-word;
+	background-color: white;
+	padding: 5px;
+}
+
+body {
+    background-image: url("/Images/myBackground.jpg");
+    background-color: rgba(255, 255, 255, 0.4);
+    background-blend-mode: lighten;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
