@@ -39,11 +39,12 @@ h2 {
     padding: 18px;
     width: 75%;
     border: none;
-    text-align: left;
+    text-align: center;
     outline: none;
     font-size: 15px;
-    margin-right: auto;
+    display: block;
     margin-left: auto;
+    margin-right: auto;
 }
 
 .active, .collapsible:hover {
