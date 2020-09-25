@@ -32,9 +32,10 @@
             text-align: center;
 		}
 
-		script {
+		.script {
 
 		     margin: auto;
+		     width 400px;
 		}
 
 
