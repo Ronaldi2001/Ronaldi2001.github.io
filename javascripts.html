@@ -20,7 +20,7 @@
 		<div class="row">
   			<div class="column">
 				<a href="about_me.html">
-    				<img src="/Images/about_me.jpg" alt="About Me Link Button" style="width:100%">
+					<img src="/Images/about_me.jpg" alt="About Me Link Button" style="width:100%">
 				</a>
   			</div>
 			<div class="column">
@@ -36,41 +36,37 @@
 		</div>
 
 		<br>
-
 		<button type="button" class="collapsible"><h1>Week 2: My Bitmoji</h1></button>
-		<div class="content">>
-		<br>
+		<div class="content">
 
-		<h2><a href="https://www.khanacademy.org/computer-programming/williams_bitmoji/6306510005288960">williams_bitmoji</a></h2>
-		<script src="https://www.khanacademy.org/computer-programming/williams_bitmoji/6306510005288960/embed.js?editor=yes&buttons=yes&author=yes&embed=yes"></script>
-		<p>Made using: <a href="http://www.khanacademy.org/computer-programming">Khan Academy Computer Science</a></p>
+			<br>
+			<h2><a href="https://www.khanacademy.org/computer-programming/williams_bitmoji/6306510005288960">williams_bitmoji</a></h2>
+			<script src="https://www.khanacademy.org/computer-programming/williams_bitmoji/6306510005288960/embed.js?editor=yes&buttons=yes&author=yes&embed=yes"></script>
 
-		<br>
-		<h2><a href="https://www.khanacademy.org/computer-programming/williams_dancingbitmoji/5841524632010752">williams_dancingBitmoji</a></h2>
-		<script src="https://www.khanacademy.org/computer-programming/williams_dancingbitmoji/5841524632010752/embed.js?editor=yes&buttons=yes&author=yes&embed=yes"></script>
-		<p>Made using: <a href="http://www.khanacademy.org/computer-programming">Khan Academy Computer Science</a></p>
+			<br>
+			<h2><a href="https://www.khanacademy.org/computer-programming/williams_dancingbitmoji/5841524632010752">williams_dancingBitmoji</a></h2>
+			<script src="https://www.khanacademy.org/computer-programming/williams_dancingbitmoji/5841524632010752/embed.js?editor=yes&buttons=yes&author=yes&embed=yes"></script>
 
-		<br>
-		<h2><a href="https://www.khanacademy.org/computer-programming/williams_racingbitmoji/5977000986755072">williams_racingBitmoji</a></h2>
-		<script src="https://www.khanacademy.org/computer-programming/williams_racingbitmoji/5977000986755072/embed.js?editor=yes&buttons=yes&author=yes&embed=yes"></script>
-		<p>Made using: <a href="http://www.khanacademy.org/computer-programming">Khan Academy Computer Science</a></p>
+			<br>
+			<h2><a href="https://www.khanacademy.org/computer-programming/williams_racingbitmoji/5977000986755072">williams_racingBitmoji</a></h2>
+			<script src="https://www.khanacademy.org/computer-programming/williams_racingbitmoji/5977000986755072/embed.js?editor=yes&buttons=yes&author=yes&embed=yes"></script>
 		</div>
 
 		<script>
-var coll = document.getElementsByClassName("collapsible");
-var i;
+			var coll = document.getElementsByClassName("collapsible");
+			var i;
 
-for (i = 0; i < coll.length; i++) {
-  coll[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var content = this.nextElementSibling;
-    if (content.style.display === "block") {
-      content.style.display = "none";
-    } else {
-      content.style.display = "block";
-    }
-  });
-}
-</script>
+			for (i = 0; i < coll.length; i++) {
+  				coll[i].addEventListener("click", function() {
+   					this.classList.toggle("active");
+    				var content = this.nextElementSibling;
+    				if (content.style.display === "block") {
+      					content.style.display = "none";
+    				} else {
+      					content.style.display = "block";
+   				 	}
+  				});
+			}
+	</script>
 	</body>
 </html>
