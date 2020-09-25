@@ -37,7 +37,7 @@ h2 {
     color: white;
     cursor: pointer;
     padding: 18px;
-    width: 75%;
+    width: 85%;
     border: none;
     text-align: center;
     outline: none;
@@ -53,9 +53,13 @@ h2 {
 
 .content {
     padding: 0 18px;
+    width: 85%;
     display: none;
     overflow: hidden;
     background-color: #f1f1f1;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 iframe {
