@@ -32,10 +32,11 @@
             text-align: center;
 		}
 
-		.js {
-
-		     align: center;
-		}
+		script {
+            display: block;
+            margin-right: auto;
+            margin-left: auto;
+        }
 
 
 		p {
