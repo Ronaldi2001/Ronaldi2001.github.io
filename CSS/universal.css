@@ -86,3 +86,7 @@ body {
     background-attachment: fixed;
     background-size: cover;
 }
+
+h1 {
+    text-align: center;
+}
